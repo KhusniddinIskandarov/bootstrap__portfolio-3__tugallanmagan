@@ -1,0 +1,28 @@
+body {
+    height: 3000px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+/* Header section */
+.main-navigation {
+    display: block;
+    position: relative;
+}
+
+.ul__font-size a {
+    font-size: 12px;
+    margin-right: -1rem;
+}
+
+.custom__color {
+    color: rgba(255, 255, 255, 0.877) !important;
+    font-weight: 700 !important;
+    letter-spacing: 1px;
+}
+
+.custom__color:hover {
+    color: rgba(255, 255, 255, 0.655) !important;
+}

@@ -1,0 +1,265 @@
+body {
+    height: 3000px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+/* Header section */
+.main-navigation {
+    display: block;
+    position: relative;
+}
+
+.ul__font-size a {
+    font-size: 12px;
+    margin-right: -1rem;
+}
+
+.custom__color {
+    color: rgba(255, 255, 255, 0.877) !important;
+    font-weight: 700 !important;
+    letter-spacing: 1px;
+}
+
+.custom__color:hover {
+    color: rgba(255, 255, 255, 0.655) !important;
+}
+
+/* .dropdown-menu {
+    display: inline-block;
+    top: -200px;
+    transition: all 0.6s ease-in-out;
+} */
+
+.height__custom {
+    position: relative;
+    top: -4px;
+    font-size: 10px;
+    font-weight: 500; 
+}
+
+.call__right {
+    position: relative;
+    right: -12px;
+}
+
+.text-white__custom {
+    color: rgba(255, 255, 255, 0.655) !important;
+}
+
+.custom__deg {
+    color: rgba(255, 255, 255, 0.611);
+    margin-left: -5px;
+}
+
+.custom__deg:hover {
+    color: white;
+    transform: rotate(360deg);
+    transition: all 0.5s ease;
+}
+
+/* Navbar section */
+.margin__right-img {
+    position: relative;
+    top: 0;
+    margin-right: 270px;
+    transition: all 0.6s ease-in-out;
+    z-index: 1;
+}
+
+.margin__right-img:hover { 
+    top: -25px;  
+    padding: 20px 0;
+    background-color: #000000;
+}
+
+.margin__right-img:focus {
+    top: -20px;
+}
+
+.margin__right-text {
+    display: block;
+    visibility: hidden;
+    list-style: none;
+    position: absolute;    
+    top: 30px;
+    left: 17px;
+    transition: all 0.6s ease-in-out;    
+}
+
+.margin__right-text a {
+    font-size: 18px;
+}
+
+.margin__right-img:hover + .margin__right-text,
+.margin__right-img:focus + .margin__right-text {
+    display: inline-block;
+    transition: all 0.6s ease-in-out; 
+    visibility: visible;
+/* brendi o'zgartiradog'on joyi */
+    top: 55px;  
+/* brendi o'zgartiradog'on joyi */
+}
+
+.margin__right-img:focus + .margin__right-text { 
+    top: 42px; 
+    background: linear-gradient(90deg, #1345e6 0%, #ed239f 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
+.hshi {
+    width: 50px;
+}
+
+.button__right {
+    display: inline-block;
+    position: absolute;
+    right: 50px;
+    top: 22px;
+}
+
+.top__custom {
+    position: relative;
+}
+
+.size__custom {
+    position: relative;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.size__custom li:hover a,
+.size__custom li a:focus {
+    color: #3db36b;
+}
+
+.blur-line {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: 2px;
+    background-color: #3db36b;
+    top: 20px;
+    visibility: hidden;
+    transition: all 0.1s ease;
+}
+
+.size__custom li a:hover,
+.size__custom li a:focus {
+    color: #3db36b;
+}
+
+.size__custom li a:hover span,
+.size__custom li a:focus span {
+    visibility: visible;    
+}
+
+/* contractors-section */
+.contractors-section {
+    display: block;
+    position: relative;
+    width: 98.7%;
+    height: 125vh;
+    background-image: url(../image/image-17.jpg);
+    background-attachment: fixed;
+    background-size: cover;  
+    color: white;
+    top: 130px;
+}
+
+.contractors-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0 ,0 ,0 , 0.6);
+}
+
+.row-custom {
+    display: block;
+    position: relative;
+    top: 90px;
+}
+
+.display-2 {
+    font-weight: 600;
+}
+
+.button__custom button {
+    font-size: 30px;
+    font-weight:400;
+}
+
+.row-custom-2 {
+    position: relative;
+    color: white;
+    top: 150px;
+}
+
+.row-custom-2 .col i {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.paragraph__custom {
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.paragraph__custom + p {
+    font-size: 14px;
+}
+
+.icons-group {
+    display: inline-block;
+    position: relative;
+}
+
+.col-icon-2 {
+    display: inline-block;
+    position: absolute;
+    color: black;
+    font-size: 18px !important;  
+    top: 6px;
+    left: 6.5px;
+}
+
+.link-button {
+    display: flex;
+    position: relative;
+    cursor: pointer;
+}
+
+
+/* profi-contractors section */
+.profi-contractors {
+    margin-top: 190px;
+}
+
+.general-p {
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.display-4 {
+    margin-top: -15px;
+    margin-bottom: 15px;
+   font-weight: 600;
+}
+
+.yelp-img {
+    width: 45px;
+}
+
+.star-on {
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
